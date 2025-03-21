@@ -1,8 +1,8 @@
 # quadsmack/thumbpad
 
-![quadsmack/gamepad](imgur.com image replace me!)
+![quadsmack/thumbpad](imgur.com image replace me!)
 
-*A short description of the keyboard/project*
+*Simple 3D Printed HandWired Socketless Hotgswap Ortholinear Game Pad with Thumb Cluster*
 
 * Keyboard Maintainer: [J. Russell Smyth](https://github.com/jrussellsmyth)
 * Hardware Supported: Seeed Studio XIAO RP2040
@@ -10,7 +10,7 @@
 
 Make example for this keyboard (after setting up your build environment):
 
-    make quadsmack/gamepad:vial
+    make quadsmack/thumbpad/rev0:vial
 
 See the [build environment setup](https://docs.qmk.fm/#/getting_started_build_tools) and the [make instructions](https://docs.qmk.fm/#/getting_started_make_guide) for more information. Brand new to QMK? Start with our [Complete Newbs Guide](https://docs.qmk.fm/#/newbs).
 
