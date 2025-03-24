@@ -1,6 +1,6 @@
-# quadsmack/testdrive/corne36
+# quadsmack/testdrive/3x5_3/xiao2040
 
-![quadsmack/testdrive/corne36](imgur.com image replace me!)
+![quadsmack/testdrive/3x5_3/xiao2040](imgur.com image replace me!)
 
 *Test Drive Corne 36 - Part of the TestDrive series*
 
@@ -10,7 +10,9 @@
 
 Make example for this keyboard (after setting up your build environment):
 
-    make quadsmack/testdrive/corne36:default
+    make quadsmack/testdrive/3x5_3/xiao2040:default    
+
+    make quadsmack/testdrive/3x5_3/xiao2040:vial
 
 
 
