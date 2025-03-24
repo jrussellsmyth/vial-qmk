@@ -10,8 +10,13 @@
 
 Make example for this keyboard (after setting up your build environment):
 
+Using the community default layout
+    make quadsmack/testdrive/3x5_3/xiao2040:default_split_3x5_3
+    
+Using the defaul layout from this project
     make quadsmack/testdrive/3x5_3/xiao2040:default    
 
+Using VIAL
     make quadsmack/testdrive/3x5_3/xiao2040:vial
 
 
