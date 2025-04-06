@@ -2,10 +2,10 @@
 
 ![quadsmack/testdrive/3x5_3/xiao2040](imgur.com image replace me!)
 
-*Test Drive Corne 36 - Part of the TestDrive series*
+*Test Drive 3x5_3 Seeed Studio RP2040*
 
 * Keyboard Maintainer: [J. Russell Smyth](https://github.com/jrussellsmyth)
-* Hardware Supported: *The PCBs, controllers supported*
+* Hardware Supported: Test Drive 3x5_3 boards - Corne 36, Fifi, and Klor Saegewerk
 * Hardware Availability: *Links to where you can find this hardware*
 
 Make example for this keyboard (after setting up your build environment):
@@ -13,7 +13,7 @@ Make example for this keyboard (after setting up your build environment):
 Using the community default layout
     make quadsmack/testdrive/3x5_3/xiao2040:default_split_3x5_3
     
-Using the defaul layout from this project
+Using the default layout from this project
     make quadsmack/testdrive/3x5_3/xiao2040:default    
 
 Using VIAL
@@ -25,8 +25,6 @@ See the [build environment setup](https://docs.qmk.fm/#/getting_started_build_to
 
 ## Bootloader
 
-Enter the bootloader in 3 ways:
+Enter the bootloader:
 
-* **Bootmagic reset**: Hold down the key at (0,0) in the matrix (usually the top left key or Escape) and plug in the keyboard
 * **Physical reset button**: Briefly press the button on the back of the PCB - some may have pads you must short instead
-* **Keycode in layout**: Press the key mapped to `QK_BOOT` if it is available
