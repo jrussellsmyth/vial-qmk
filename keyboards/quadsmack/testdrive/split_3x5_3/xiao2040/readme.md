@@ -11,13 +11,13 @@
 Make example for this keyboard (after setting up your build environment):
 
 Using the community default layout
-    make quadsmack/testdrive/3x5_3/xiao2040:default_split_3x5_3
+    make quadsmack/testdrive/split_3x5_3/xiao2040:default_split_3x5_3
     
 Using the default layout from this project
-    make quadsmack/testdrive/3x5_3/xiao2040:default    
+    make quadsmack/testdrive/split_3x5_3/xiao2040:default    
 
 Using VIAL
-    make quadsmack/testdrive/3x5_3/xiao2040:vial
+    make quadsmack/testdrive/split_3x5_3/xiao2040:vial
 
 
 
@@ -27,4 +27,4 @@ See the [build environment setup](https://docs.qmk.fm/#/getting_started_build_to
 
 Enter the bootloader:
 
-* **Physical reset button**: Briefly press the button on the back of the PCB - some may have pads you must short instead
+* **Physical reset button**: Briefly press the button on the back of the PCB
