@@ -1,12 +1,11 @@
 {
     "manufacturer": "J. Russell Smyth",
-    "keyboard_name": "quadsmack/testdrive/corne36",
+    "keyboard_name": "quadsmack/testdrive/split_3x5_3/xiao2040",
     "maintainer": "jrussellsmyth",
     "bootloader": "rp2040",
     "features": {
         "bootmagic": true,
         "command": false,
-        "console": false,
         "extrakey": false,
         "mousekey": true,
         "nkro": true
@@ -22,6 +21,16 @@
         "device_version": "1.0.0",
         "pid": "0x0000",
         "vid": "0xFEED"
+    },
+    "caps_word": {
+        "enabled": true,
+        "both_shifts_turns_on": true,
+        "double_tap_shift_turns_on": true,
+        "idle_timeout": 5000,
+        "invert_on_shift": false
+    },
+    "tapping": {
+        "chordal_hold": true
     },
     "community_layouts":["split_3x5_3"],
     "layouts": {
