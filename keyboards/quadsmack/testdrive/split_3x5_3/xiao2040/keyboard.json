@@ -30,7 +30,8 @@
         "invert_on_shift": false
     },
     "tapping": {
-        "chordal_hold": true
+        "chordal_hold": true,
+        "permissive_hold": true
     },
     "community_layouts":["split_3x5_3"],
     "layouts": {
