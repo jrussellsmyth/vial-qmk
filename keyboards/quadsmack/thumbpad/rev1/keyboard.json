@@ -1,5 +1,8 @@
 {
     "keyboard_name": "quadsmack/thumbpad/rev0",
+    "usb": {
+        "pid": "0xAA02"
+    },
     "matrix_pins": {
         "cols": ["GP26", "GP27", "GP28", "GP29", "GP2", "GP4"],
         "rows": ["GP6", "GP7", "GP0", "GP1", "GP3"]

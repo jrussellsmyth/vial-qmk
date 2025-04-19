@@ -1,0 +1,6 @@
+{
+    "keyboard_name": "Test Drive XIAO_RP2040 Fifi",
+    "usb": {
+        "pid": "0xDD02"
+    }
+}
