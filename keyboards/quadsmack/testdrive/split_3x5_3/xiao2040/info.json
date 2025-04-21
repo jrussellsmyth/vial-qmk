@@ -69,12 +69,12 @@
                 { "label":"M","matrix": [6, 2], "x": 2.25, "y": 2.25, "hand": "R" },
                 { "label":"N","matrix": [6, 3], "x": 3.25, "y": 2.25, "hand": "R" },
                 { "label":"O","matrix": [6, 4], "x": 4.25, "y": 2.25, "hand": "R" },
-                { "label":"P","matrix": [3, 2], "x": 3.5, "y": 4.25, "hand": "L" },
-                { "label":"Q","matrix": [3, 3], "x": 5.5, "y": 4.25, "hand": "L" },
-                { "label":"R","matrix": [3, 4], "x": 7.5, "y": 4.25, "hand": "L" },
-                { "label":"P","matrix": [7, 0], "x": 3.5, "y": 4.25, "hand": "R" },
-                { "label":"Q","matrix": [7, 1], "x": 5.5, "y": 4.25, "hand": "R" },
-                { "label":"R","matrix": [7, 2], "x": 7.5, "y": 4.25, "hand": "R" }
+                { "label":"P","matrix": [3, 2], "x": 3.5, "y": 4.25, "hand": "*" },
+                { "label":"Q","matrix": [3, 3], "x": 5.5, "y": 4.25, "hand": "*" },
+                { "label":"R","matrix": [3, 4], "x": 7.5, "y": 4.25, "hand": "*" },
+                { "label":"P","matrix": [7, 0], "x": 3.5, "y": 4.25, "hand": "*" },
+                { "label":"Q","matrix": [7, 1], "x": 5.5, "y": 4.25, "hand": "*" },
+                { "label":"R","matrix": [7, 2], "x": 7.5, "y": 4.25, "hand": "*" }
             ]
         }
     },
