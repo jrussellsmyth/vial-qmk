@@ -17,7 +17,8 @@ Using the default layout from this project
     make quadsmack/testdrive/split_3x5_3/xiao2040:default    
 
 Using VIAL
-    make quadsmack/testdrive/split_3x5_3/xiao2040:vial
+    make quadsmack/testdrive/split_3x5_3/xiao2040/corne36:vial
+    make quadsmack/testdrive/split_3x5_3/xiao2040/fifi:vial
 
 
 
