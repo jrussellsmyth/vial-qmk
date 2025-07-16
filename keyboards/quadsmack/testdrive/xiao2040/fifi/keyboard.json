@@ -1,60 +1,19 @@
 {
-    "manufacturer": "QuadSmack",
-    "maintainer": "jrussellsmyth",
-    "bootloader": "rp2040",
-    "features": {
-        "bootmagic": true,
-        "command": false,
-        "extrakey": false,
-        "mousekey": true,
-        "rgblight": true,
-        "nkro": true
+    "keyboard_name": "Test Drive XIAO_RP2040 Fifi",
+    "usb": {
+        "pid": "0xDD02"
     },
-    "diode_direction": "COL2ROW",
     "matrix_pins": {
         "cols": ["GP3", "GP4", "GP2", "GP26", "GP27"],
         "rows": ["GP28", "GP29", "GP6", "GP7"]
     },
-    "processor": "RP2040",
-    "url": "",
-    "usb": {
-        "device_version": "1.0.0",
-        "vid": "0x2112"
-    },
-    "caps_word": {
-        "enabled": true,
-        "both_shifts_turns_on": true,
-        "double_tap_shift_turns_on": true,
-        "idle_timeout": 5000,
-        "invert_on_shift": false
-    },
-    "tapping": {
-        "chordal_hold": true,
-        "permissive_hold": true
-    },
-    "bootmagic": {
-        "enabled": true,
-        "matrix":[0, 0]
-    },
-    "ws2812": {
-        "pin": "GP12",
-        "driver": "vendor"
-    },
-    "rgblight": {
-        "led_count": 2,
-        "max_brightness": 185,
-        "animations": {
-            "breathing": true,
-            "rainbow_mood": true,
-            "knight": true,
-            "christmas": true,
-            "static_gradient": true,
-            "rgb_test": true,
-            "alternating": true,
-            "twinkle": true
-        },
-        "split":true,
-        "split_count": [1, 1]
+    "split": {
+        "matrix_pins":{
+            "right":{
+                "cols": ["GP3", "GP4", "GP28", "GP27", "GP26"],
+                "rows": ["GP2", "GP29", "GP6", "GP7"]
+            }
+        }
     },
     "community_layouts":["split_3x5_3"],
     "layouts": {
@@ -97,18 +56,6 @@
                 { "label":"Q","matrix": [7, 1], "x": 5.5, "y": 4.25, "hand": "*" },
                 { "label":"R","matrix": [7, 2], "x": 7.5, "y": 4.25, "hand": "*" }
             ]
-        }
-    },
-    "split":{
-        "enabled": true,
-        "serial":{
-            "driver": "vendor"
-        },
-        "matrix_pins":{
-            "right":{
-                "cols": ["GP3", "GP4", "GP28", "GP27", "GP26"],
-                "rows": ["GP2", "GP29", "GP6", "GP7"]
-            }
         }
     }
 }

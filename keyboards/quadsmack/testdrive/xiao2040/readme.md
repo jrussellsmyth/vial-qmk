@@ -14,7 +14,7 @@ Using the community default layout
     make quadsmack/testdrive/split_3x5_3/xiao2040:default_split_3x5_3
     
 Using the default layout from this project
-    make quadsmack/testdrive/split_3x5_3/xiao2040:default    
+    make quadsmack/testdrive/split_3x5_3/xiao2040/corne:default    
 
 Using VIAL
     make quadsmack/testdrive/split_3x5_3/xiao2040/corne36:vial

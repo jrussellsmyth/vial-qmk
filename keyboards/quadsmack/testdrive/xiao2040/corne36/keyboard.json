@@ -1,0 +1,61 @@
+{
+    "keyboard_name": "Test Drive XIAO_RP2040 Corne36",
+    "usb": {
+        "pid": "0xDD01"
+    },
+    "matrix_pins": {
+        "cols": ["GP3", "GP4", "GP2", "GP26", "GP27"],
+        "rows": ["GP28", "GP29", "GP6", "GP7"]
+    },
+    "split": {
+        "matrix_pins":{
+            "right":{
+                "cols": ["GP3", "GP4", "GP28", "GP27", "GP26"],
+                "rows": ["GP2", "GP29", "GP6", "GP7"]
+            }
+        }
+    },
+    "community_layouts":["split_3x5_3"],
+    "layouts": {
+        "LAYOUT_split_3x5_3": {
+            "layout": [
+                { "label":"A","matrix": [0, 0], "x": 0, "y": 0, "hand": "L" },
+                { "label":"B","matrix": [0, 1], "x": 1.25, "y": 0, "hand": "L" },
+                { "label":"C","matrix": [0, 2], "x": 2.25, "y": 0, "hand": "L" },
+                { "label":"D","matrix": [0, 3], "x": 3.25, "y": 0, "hand": "L" },
+                { "label":"E","matrix": [0, 4], "x": 4.25, "y": 0, "hand": "L" },
+                { "label":"A","matrix": [4, 0], "x": 0, "y": 0, "hand": "R" },
+                { "label":"B","matrix": [4, 1], "x": 1.25, "y": 0, "hand": "R" },
+                { "label":"C","matrix": [4, 2], "x": 2.25, "y": 0, "hand": "R" },
+                { "label":"D","matrix": [4, 3], "x": 3.25, "y": 0, "hand": "R" },
+                { "label":"E","matrix": [4, 4], "x": 4.25, "y": 0, "hand": "R" },
+                { "label":"F","matrix": [1, 0], "x": 0, "y": 1.25, "hand": "L" },
+                { "label":"G","matrix": [1, 1], "x": 1.25, "y": 1.25, "hand": "L" },
+                { "label":"H","matrix": [1, 2], "x": 2.25, "y": 1.25, "hand": "L" },
+                { "label":"I","matrix": [1, 3], "x": 3.25, "y": 1.25, "hand": "L" },
+                { "label":"J","matrix": [1, 4], "x": 4.25, "y": 1.25, "hand": "L" },
+                { "label":"F","matrix": [5, 0], "x": 0, "y": 1.25, "hand": "R" },
+                { "label":"G","matrix": [5, 1], "x": 1.25, "y": 1.25, "hand": "R" },
+                { "label":"H","matrix": [5, 2], "x": 2.25, "y": 1.25, "hand": "R" },
+                { "label":"I","matrix": [5, 3], "x": 3.25, "y": 1.25, "hand": "R" },
+                { "label":"J","matrix": [5, 4], "x": 4.25, "y": 1.25, "hand": "R" },
+                { "label":"K","matrix": [2, 0], "x": 0, "y": 2.25, "hand": "L" },
+                { "label":"L","matrix": [2, 1], "x": 1.25, "y": 2.25, "hand": "L" },
+                { "label":"M","matrix": [2, 2], "x": 2.25, "y": 2.25, "hand": "L" },
+                { "label":"N","matrix": [2, 3], "x": 3.25, "y": 2.25, "hand": "L" },
+                { "label":"O","matrix": [2, 4], "x": 4.25, "y": 2.25, "hand": "L" },
+                { "label":"K","matrix": [6, 0], "x": 0, "y": 2.25, "hand": "R" },
+                { "label":"L","matrix": [6, 1], "x": 1.25, "y": 2.25, "hand": "R" },
+                { "label":"M","matrix": [6, 2], "x": 2.25, "y": 2.25, "hand": "R" },
+                { "label":"N","matrix": [6, 3], "x": 3.25, "y": 2.25, "hand": "R" },
+                { "label":"O","matrix": [6, 4], "x": 4.25, "y": 2.25, "hand": "R" },
+                { "label":"P","matrix": [3, 2], "x": 3.5, "y": 4.25, "hand": "*" },
+                { "label":"Q","matrix": [3, 3], "x": 5.5, "y": 4.25, "hand": "*" },
+                { "label":"R","matrix": [3, 4], "x": 7.5, "y": 4.25, "hand": "*" },
+                { "label":"P","matrix": [7, 0], "x": 3.5, "y": 4.25, "hand": "*" },
+                { "label":"Q","matrix": [7, 1], "x": 5.5, "y": 4.25, "hand": "*" },
+                { "label":"R","matrix": [7, 2], "x": 7.5, "y": 4.25, "hand": "*" }
+            ]
+        }
+    }
+}
