@@ -11,13 +11,13 @@
 Make example for this keyboard (after setting up your build environment):
 
 Using the community default layout
-    make quadsmack/testdrive/split_3x5_3/xiao2040:default_split_3x5_3
+    make quadsmack/testdrive/xiao2040/corne36:default_split_3x5_3
     
 Using the default layout from this project
-    make quadsmack/testdrive/split_3x5_3/xiao2040/corne:default    
-
+  js  make quadsmack/testdrive/split_3x5_3/xiao2040/corne:default    
+    
 Using VIAL
-    make quadsmack/testdrive/split_3x5_3/xiao2040/corne36:vial
+    make quadsmack/testdrive/xiao2040/corne36:vial
     make quadsmack/testdrive/split_3x5_3/xiao2040/fifi:vial
 
 

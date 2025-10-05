@@ -8,7 +8,6 @@
         "extrakey": false,
         "mousekey": true,
         "rgblight": true,
-        "combos": true,
         "nkro": true
     },
     "diode_direction": "COL2ROW",
