@@ -1,0 +1,7 @@
+{
+    "diode_direction": "COL2ROW",
+    "matrix_pins": {
+        "cols": ["GP14", "GP26", "GP11", "GP12", "GP29", "GP28"],
+        "rows": ["GP27", "GP15", "GP13", "GP10"]
+    }
+}
